@@ -9,7 +9,7 @@ public class SmallestValue {
         Scanner in = new Scanner(System.in);
         System.out.print("أدخل الرقم الأول: ");
         double x = in.nextDouble();
-        System.out.print("Input the Second number: ");
+        System.out.print("أدخل الرقم الثاني: ");
         double y = in.nextDouble();
         System.out.print("Input the third number: ");
         double z = in.nextDouble();
