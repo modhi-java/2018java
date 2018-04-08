@@ -13,6 +13,8 @@ public static void main(String[] args){
 //درس عوامل المقارنات
     int x = 10;
     int y = 20;
+    boolean z = true;
+    boolean w = false;
     System.out.println(x==y);
     // إذا كان 2 يساوي معناه انه يسألأ هل الاكس يساوي واي
 
@@ -28,6 +30,18 @@ public static void main(String[] args){
     System.out.println(x>=y);
 //أكبر أو يساوي
     System.out.println(x<=y);
+
+
+    System.out.println(z&&w);
+    //تستخدم للمقارنات بين شيئين
+
+    System.out.println(z||w);
+    //ت
+
+    System.out.println(!(z&&w));
+    //علامة التعجب تعكس النتيجة دائما
+
+
 
 }
 }
