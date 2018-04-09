@@ -41,6 +41,18 @@ public static void main(String[] args){
     System.out.println(!(z&&w));
     //علامة التعجب تعكس النتيجة دائما
 
+    //الواجب عوامل التعريفات
+    int A = 10;
+    int C = 20;
+
+    System.out.println(C+=A);
+    System.out.println(C-=A);
+    System.out.println(C*=A);
+    System.out.println(C/=A);
+    System.out.println(C%=A);
+
+
+
 
 
 }
